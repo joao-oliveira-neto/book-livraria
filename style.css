@@ -1,0 +1,85 @@
+body{
+    margin: 0; /* Tirar a margem que já vem no body */
+    font-family: tahoma; /* fonte da letra */
+    color: #666; /* mudar a cor da letra */
+}
+
+#total {
+    width: 1000px; /* definir o tamanho total da div */
+    margin: 0 auto; /* centralizar a div */
+}
+
+#logo {
+    text-align: center; /* Centralizar elementos em linha (imagens)*/
+    margin: 30px 0px;
+}
+
+#menu{
+    text-align: center; /* Centralizar elementos em linha (menu de navegação)*/
+    background-color: #222;
+    height: 40px; /* definir a altura */ 
+}
+
+#menu a{
+    color: #fff;
+    text-decoration: none; /* tirar qualquer decoração */
+    line-height: 40px; /* para centralizar verticalmente um elemento (colocar do mesmo tamanho da div que a qual ele pertence) */
+    margin: 0px 35px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#banner{
+    margin-top: 2px;
+    padding-bottom: 30px;
+}
+
+#banner img{
+    width: 100%; /* aumentar a largura da imagem */
+}
+
+#principal{
+    width: 60%;
+    color: #666;
+}
+
+#secundario{
+    width: 35%;
+}
+
+#secundario p{
+    font-style: italic;
+    color: #999;
+}
+
+#principal, #secundario {
+    font-size: 16px;
+}
+
+h1,h2{
+    margin: 0px;
+    font-size: 20px;
+    color: #333;
+}
+
+h2{
+    font-size: 18px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    width: 1000px;
+    font-size: 12px;
+    padding: 30px;
+    color: #999;
+}
+
+.left { float: left }
+.right { float: right }

@@ -20,7 +20,7 @@ h2{
 #total{
     width: 95%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 #logo{
@@ -39,7 +39,7 @@ h2{
     color: #fff;
     text-decoration: none;
     line-height: 40px;
-    margin: 0 35px;
+    margin: 0px 35px;
 }
 
 #menu a:hover{
@@ -97,12 +97,26 @@ h2{
     and (max-width: 785px)
 {
     #menu a{
-        font-size: 14px;
-        margin: 0 25px;
+    font-size: 14px;
+    margin: 0 25px;
     }
     #anuncio{
-        display: block;
+    display: block;
         
     }
 }
+
+@media screen and (max-width: 639px ) {
+    #menu{
+        height: auto;
+    }
+    #menu a{
+        display:block;
+        border-bottom: white 1px solid;
+        
+    }
+    #menu a:last-child{
+        border-bottom: none;
+    }
+    
 
